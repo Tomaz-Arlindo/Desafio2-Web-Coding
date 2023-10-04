@@ -84,7 +84,7 @@ a:hover {
 
 /* Estilos para a lista de texto */
 ul {
-    list-style: decimal;
+    list-style: "• ";
     padding: 0;
 }
 
@@ -149,4 +149,17 @@ figcaption {
   font-size: 20px;
   color: #4b1a5b;
   margin-top: 5px;
+}
+
+/* Estilos para a div centralizada */
+.centralizada-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px; /* Ajuste a altura conforme necessário */
+    background-color: #270E2F; /* Cor de fundo da div centralizada */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px;
+    max-width: 1200px; /* Largura máxima da div centralizada */
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
