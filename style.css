@@ -11,11 +11,18 @@ h1 {
   color: #53b26a;
 }
 
+/* Estilos para cabeçalho h1 do quiz*/
+h1#titulo_quiz {
+  text-align: center;
+  color: #53b26a;
+}
+
 /* Estilos para parágrafos */
 p {
   color: #ECDFF1;
   font-size: 18px;
   line-height: 1.5;
+
 }
 
 /* Estilos para cabeçalho */
@@ -54,46 +61,52 @@ a:hover {
 
 /* Estilos para a div centralizada */
 .centralizada {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px; /* Ajuste a altura conforme necessário */
-    background-color: #270E2F; /* Cor de fundo da div centralizada */
-    border-radius: 15px; /* Bordas arredondadas */
-    padding: 20px;
-    max-width: 800px; /* Largura máxima da div centralizada */
-    margin: 0 auto; /* Centraliza horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  /* Ajuste a altura conforme necessário */
+  background-color: #270E2F;
+  /* Cor de fundo da div centralizada */
+  border-radius: 15px;
+  /* Bordas arredondadas */
+  padding: 20px;
+  max-width: 800px;
+  /* Largura máxima da div centralizada */
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
 }
 
 /* Estilos para a div à esquerda */
 .conteudo-esquerda {
-    padding: 20px;
-    text-align: left;
+  padding: 20px;
+  text-align: left;
 }
 
 /* Estilos para a div à esquerda */
 .conteudo-meio {
-    padding: 70px;
+  padding: 70px;
 }
 
 /* Estilos para a div à direita */
 .conteudo-direita {
-    padding: 20px;
-    text-align: left;
+  padding: 20px;
+  text-align: left;
 }
 
 /* Estilos para a lista de texto */
 ul {
-    list-style: "• ";
-    padding: 0;
+  list-style: "• ";
+  padding: 0;
 }
 
 /* Estilos para os itens da lista de texto */
 ul li {
-    margin: 5px 0;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: #53b26a; /* Cor do texto dos itens */
+  margin: 5px 0;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #53b26a;
+  /* Cor do texto dos itens */
 }
 
 img {
@@ -114,21 +127,27 @@ img {
   width: 150px;
   height: 150px;
   background-color: #FFFFFF;
-  transition: transform 0.3s, box-shadow 0.3s; /* Adiciona transição para o efeito hover */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Adiciona transição para o efeito hover */
 }
 
 /* Estilos para o efeito hover */
 .equipe-img:hover {
-    transform: scale(1.05); /* Aumenta a imagem em 10% quando o mouse passa sobre ela */
-    box-shadow: 0 0 200px rgba(83, 178, 106, 0.7); /* Adiciona um brilho de fundo */
+  transform: scale(1.05);
+  /* Aumenta a imagem em 10% quando o mouse passa sobre ela */
+  box-shadow: 0 0 200px rgba(83, 178, 106, 0.7);
+  /* Adiciona um brilho de fundo */
 }
 
 /* Estilos para o container de membros */
 .membros-container {
   display: flex;
-  flex-wrap: wrap; /* Permite que as figuras sejam quebradas para a próxima linha quando necessário */
-  justify-content: center; /* Centraliza horizontalmente os membros */
-  align-items: center; /* Centraliza verticalmente os membros */ 
+  flex-wrap: wrap;
+  /* Permite que as figuras sejam quebradas para a próxima linha quando necessário */
+  justify-content: center;
+  /* Centraliza horizontalmente os membros */
+  align-items: center;
+  /* Centraliza verticalmente os membros */
 }
 
 /* Estilos para grupos de membros */
@@ -153,13 +172,53 @@ figcaption {
 
 /* Estilos para a div centralizada */
 .centralizada-contato {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px; /* Ajuste a altura conforme necessário */
-    background-color: #270E2F; /* Cor de fundo da div centralizada */
-    border-radius: 15px; /* Bordas arredondadas */
-    padding: 20px;
-    max-width: 1200px; /* Largura máxima da div centralizada */
-    margin: 0 auto; /* Centraliza horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  /* Ajuste a altura conforme necessário */
+  background-color: #270E2F;
+  /* Cor de fundo da div centralizada */
+  border-radius: 15px;
+  /* Bordas arredondadas */
+  padding: 20px;
+  max-width: 1200px;
+  /* Largura máxima da div centralizada */
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+}
+
+
+.centralizada-quiz {
+  min-height: 400px;
+  /* Ajuste a altura conforme necessário */
+  justify-content: center;
+  align-items: center;
+  background-color: #270E2F;
+  /* Cor de fundo da div centralizada */
+  border-radius: 15px;
+  /* Bordas arredondadas */
+  padding: 20px;
+  max-width: 500px;
+  /* Largura máxima da div centralizada */
+  margin: 0 auto;
+  /* Centraliza horizontalmente */
+
+}
+
+
+.respostas_btn {
+  background-color: #53b26a;
+  border: none;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 500px;
+  max-height: 100px;
+}
+
+.respostas_btn:hover {
+  background-color: #2effa4;
 }
